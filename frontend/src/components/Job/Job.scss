@@ -1,0 +1,45 @@
+.job-main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #e2e1f0;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  .company-logo {
+    display: flex;
+    height: 90px;
+    align-items: center;
+
+    img {
+      border-radius: 50%;
+    }
+    span {
+      margin-left: 10px;
+    }
+    .company-name {
+      font-size: 14px;
+      color: #bfbfbf;
+    }
+  }
+  .icon {
+    margin-top: 5px;
+    font-size: 25px;
+  }
+  .address {
+    display: flex;
+    align-items: center;
+    color: #bfbfbf;
+    justify-content: space-between;
+  }
+  .job-type {
+    color: #23c0e9;
+  }
+  .job-apply {
+    background-color: #fff;
+    border: 1px solid #23c0e9;
+    color: #23c0e9;
+  }
+}

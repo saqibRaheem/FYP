@@ -1,0 +1,52 @@
+.form-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: calc(100vh - 400px);
+}
+
+.form-main .form {
+  padding: 30px;
+  -webkit-box-shadow: 0 0 14px #e5e5e5;
+          box-shadow: 0 0 14px #e5e5e5;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.form-main .form h3 {
+  font-size: 18px;
+  color: #23c0e9;
+  line-height: 18px;
+  padding: 15px 0 30px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-main .form .login-link {
+  color: #23c0e9;
+  cursor: pointer;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.form-main .form p {
+  color: #9a9a9a;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-main .form p .login-link {
+  color: #23c0e9;
+  cursor: pointer;
+  margin-left: 5px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Pages.css.map */

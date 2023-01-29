@@ -1,0 +1,109 @@
+.student-profile-main {
+  margin-left: 30px;
+  width: 72%;
+  background: #ffffff;
+  border-radius: 6px;
+  display: inline-block;
+  .student-profile {
+    border: 2px solid #f1f3f4;
+    padding: 25px;
+    box-shadow: 0 3px 10px #f8f3f3;
+    border-radius: 4px;
+    display: flex;
+    height: 250px;
+    align-items: center;
+    .student-profile-wrapper-1 {
+      border-right: 1px solid #e2e5e8;
+      height: 170px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px 40px;
+      h3 {
+        color: #797a7a;
+        background: rgba(35, 192, 233, 0.2);
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 4px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      span {
+        color: #707f8c;
+      }
+    }
+    .student-profile-wrapper-2 {
+      padding-left: 40px;
+      font-family: "Montserrat", sans-serif;
+      color: #707f8c;
+      div {
+        display: flex;
+        align-items: center;
+        line-height: 40px;
+        :first-child {
+          font-size: 18px;
+          margin-right: 10px;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .user-info-col {
+    // width: 100%;
+    // display: table;
+    border-radius: 6px;
+    margin-bottom: 40px;
+    border: 1px solid #eaeff5;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    .info-header {
+      background: #707272;
+      border-radius: 6px 6px 0 0;
+      padding: 20px 25px;
+      border-bottom: 1px solid #eaeff5;
+      color: #fff;
+    }
+    .user-detail {
+      padding: 20px 20px 0 20px;
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #808283;
+        background: rgba(35, 192, 233, 0.2);
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 4px;
+        text-align: center;
+        margin-bottom: 10px;
+        display: inline-block;
+      }
+      ul {
+        margin-left: 20px;
+      }
+      p {
+        color: #707f8c;
+        line-height: 24px;
+      }
+    }
+    .user-info-container {
+      display: flex;
+      justify-content: space-between;
+      span {
+        color: #8f9394;
+        background: rgba(35, 192, 233, 0.2);
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 4px;
+        text-align: center;
+        margin-bottom: 10px;
+        display: inline-block;
+      }
+    }
+  }
+}

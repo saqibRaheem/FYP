@@ -1,0 +1,107 @@
+.category_text {
+  padding-top: 60px;
+  @media screen and (max-width: 600px) {
+    padding-top: 30px;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+    color: #334e6f;
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 10px;
+    @media screen and (max-width: 600px) {
+      font-size: 24px;
+    }
+  }
+  p {
+    display: flex;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 500;
+    color: #707f8c;
+    font-family: "Montserrat", sans-serif;
+    @media screen and (min-width: 1100px) {
+      width: 900px;
+      margin: 0 auto;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  }
+}
+.servicediv {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 25px;
+  .service {
+    cursor: pointer;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color: rgb(184, 176, 176);
+    position: relative;
+    border: 1px solid #d9eeee;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #e2e1f0;
+    .insidediv {
+      background-color: rgb(221, 218, 218);
+      color: rgb(43, 52, 69);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2.5rem;
+      height: 100%;
+      border-radius: 8px;
+      box-shadow: 4px 2px 5px #b9bbbb;
+      button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 0px;
+        cursor: pointer;
+        vertical-align: middle;
+        text-decoration: none;
+        text-align: center;
+        padding: 8px;
+        border-radius: 50%;
+        color: #fff;
+        background-color: #8c8d8d;
+      }
+      .icons {
+        font-size: 70px;
+        border-radius: 50%;
+        color: #d9eeee;
+      }
+      h4 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #334e6f;
+      }
+      .para {
+        text-align: center;
+        span {
+          font-size: 14px;
+          font-weight: 600;
+          color: #23c0e9;
+          display: inline-block;
+          padding: 5px 10px;
+          border-radius: 10px;
+          border: 1px solid #0a0a0a;
+        }
+      }
+    }
+
+    @media screen and (max-width: 900px) {
+      margin: 12px;
+    }
+  }
+}

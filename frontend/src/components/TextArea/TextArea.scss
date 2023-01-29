@@ -1,0 +1,18 @@
+.textArea {
+  width: 100%;
+  padding: 20px;
+  font-size: 14px;
+  border: 1px solid #ececec;
+  width: 100%;
+  transition: all 0.3s;
+  margin-top: 5px;
+}
+textarea:focus {
+  outline: none;
+  border: 1px solid #747677;
+}
+label{
+  font-size: 14px;
+  color: #A69AA6;
+  font-weight: 400;
+}

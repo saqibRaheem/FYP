@@ -1,0 +1,59 @@
+.main-counter {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 7px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  .mid-counter {
+    background: #4d4b4b !important;
+    border-radius: 0;
+  }
+  .counter {
+    border-radius: 5px;
+    color: #ffffff;
+    background: #4d4b4b;
+    padding: 30px;
+    text-align: center;
+    h3 {
+      color: #ffffff;
+      font-weight: 600;
+      margin: 20px 0 0 0;
+      font-family: "Lato", Helvetica, Arial, sans-serif;
+      font-size: 20px;
+    }
+    .number {
+      font-family: "Montserrat";
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 0.9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .prefix {
+        font-size: 30px;
+        padding-left: 10px;
+      }
+    }
+    .clearfix {
+      margin-top: 10px;
+      zoom: 1;
+      .centerline {
+        display: inline-block;
+        width: 200px;
+        height: 2px;
+        position: relative;
+        color: #fff;
+      }
+
+      .centerline::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 10px;
+        width: 180px;
+        height: 1px;
+        background: #fff;
+      }
+    }
+  }
+}

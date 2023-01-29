@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,gBAAgB,EAAE,+BAA+B;EACjD,mBAAmB,EAAE,UAAU;EAC/B,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EACtB,OAAO,EAAE,YAAY;EACrB,QAAQ,EAAE,QAAQ;CAOnB;;AAbD,AAOE,iBAPe,CAOf,EAAE,CAAC;EACD,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,SAAS;CAC1B",
+    "sources": [
+        "FormSlider.scss"
+    ],
+    "names": [],
+    "file": "FormSlider.css"
+}

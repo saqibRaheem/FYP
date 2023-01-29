@@ -1,0 +1,82 @@
+.maindiv {
+  margin: 20px 0;
+  h2{
+    display: flex;
+    justify-content: center;
+    color: #334e6f;
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    margin: 70px 0 40px 0 ;
+  }
+  .cardmain {
+    display: grid;
+    margin: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+    .card {
+      background-color: rgb(221, 218, 218);
+      position: relative;
+      border: 1px solid #d4dbdb;
+      width: 100%;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 4px 2px 5px #b9bbbb;
+      .topdiv {
+        .imghead {
+          .leftdiv {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 24px;
+            color: #1a1c1d;
+            border: 1px solid #5a5b5c;
+            border-radius: 10px;
+            padding: 0px 8px;
+            font-size: 12px;
+            position: absolute;
+            left: 15px;
+          }
+          .rightdiv {
+            position: absolute;
+            right: 15px;
+            z-index: 10;
+            border-radius: 10px solid;
+          }
+        }
+        .image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 150px;
+          img {
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            border-radius: 50%;
+          }
+        }
+      }
+      .bottomdiv {
+        position: relative;
+        text-align: center;
+        p {
+          margin: 10px 0;
+          color: #8492af;
+          font-size: 13px;
+        }
+        h3 {
+          color: #334e6f;
+        }
+        .btns {
+          font-size: 12px;
+          padding: 8px 15px;
+          text-transform: uppercase;
+          font-weight: 500;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.main-message {
+  background-image: url("../../assests/bg-test.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 15px 30px;
+  margin: 40px 0;
+  background-attachment: fixed;
+  align-items: center;
+  height: 350px;
+  width: 100%;
+  .wpb_wrapper {
+    h3 {
+      padding-top: 30px;
+      // align-items: center;
+      color: #fff;
+      font-size: 20px;
+      margin: 0 0 10px;
+      font-weight: 700;
+      position: relative;
+      text-transform: uppercase;
+    }
+    ::after {
+      margin: 10px 0;
+      text-align: center;
+      background: #fff;
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 11px;
+      width: 70px;
+      height: 1px;
+    }
+  }
+  .message_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    @media screen and (max-width: 600px) {
+      display: block;
+    }
+    .message_img {
+      img {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 12px;
+        margin-left: 0px;
+      }
+      @media screen and (max-width: 600px) {
+        text-align: center;
+      }
+    }
+    p {
+      width: 85%;
+      @media screen and (max-width: 600px) {
+        width: 100%;
+      }
+      .message {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 19px;
+        font-style: italic;
+        @media screen and (max-width: 600px) {
+          font-size: 16px;
+          text-align: center;
+          margin: 20px 0 !important;
+        }
+      }
+      .display {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        display: block;
+      }
+      .role {
+        color: #23c0e9;
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .role-mob {
+        @media screen and (max-width: 600px) {
+          text-align: right;
+        }
+      }
+    }
+  }
+}

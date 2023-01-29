@@ -1,0 +1,16 @@
+.form-slider-main {
+  background-image: url("../../assests/formbg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0 80px;
+  position: relative;
+}
+
+.form-slider-main h3 {
+  text-align: center;
+  color: #23c0e9;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=FormSlider.css.map */

@@ -1,0 +1,25 @@
+.grpbtn-main {
+  margin-top: 80px;
+}
+
+.grpbtn-main .grpbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #23c0e9;
+  width: 350px;
+  margin: 0 auto;
+  max-width: "100%";
+  border-radius: 10px;
+}
+
+.grpbtn-main .grpbtn .btn-before {
+  background-color: #fff;
+  color: #23c0e9;
+  margin: 10px 5px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=GroupButton.css.map */

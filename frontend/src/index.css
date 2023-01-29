@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: rubik, sans-serif;
+  background-color: rgb(238, 235, 235);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

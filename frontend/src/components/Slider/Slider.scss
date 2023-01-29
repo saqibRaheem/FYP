@@ -1,0 +1,74 @@
+.slider {
+  background-image: url("../../assests/download.jpg");
+  // padding: 400px 0;
+  // height: 100vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // filter: opacity(.5) drop-shadow(0 0 0 black);
+  // backdrop-filter: blur(10px);
+  // backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  .slider-content-main {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    height: 100vh;
+    .slider-content {
+      z-index: 9;
+      margin: 0 15px;
+      h2 {
+        font-size: 54px;
+        color: #fff;
+        line-height: 1.2;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+.slider::before {
+  position: absolute;
+  content: "";
+  background: linear-gradient(
+    to right,
+    rgba(50, 50, 50, 1) 20%,
+    rgba(50, 50, 50, 0.95) 50%,
+    rgba(50, 50, 50, 0.1) 80%,
+    rgba(50, 50, 50, 0) 100%
+  );
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+@media screen and(max-width: 600px) {
+  .slider {
+    height: 80vh;
+    .slider-content-main {
+      justify-content: center;
+      .slider-content {
+        h2 {
+          font-size: 30px;
+        }
+        .search-bar {
+          border-radius: 5px;
+          input {
+            width: 100%;
+            border-radius: 5px;
+          }
+          button {
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+  .slider::before {
+    height: 80%;
+  }
+}

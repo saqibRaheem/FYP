@@ -1,0 +1,92 @@
+.sidebar-main {
+  .user-profile-pic {
+    background: #fbfdff;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0 1px 7px #dbd5d5;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+    img {
+      border-radius: 10px;
+    }
+    .user-name {
+      position: absolute;
+      background: rgba(117, 119, 119, 0.8);
+      bottom: 13px;
+      color: #ffffff;
+      left: 10px;
+      padding: 10px 0;
+      border-radius: 0 0 8px 8px;
+      position: absolute;
+      height: 44px;
+      line-height: 22px;
+      font-weight: 500;
+      right: 10px;
+      text-align: center;
+    }
+    .pic-text {
+      position: absolute;
+      top: 45%;
+      left: 65px;
+      font-size: 20px;
+      color: #fff;
+    }
+  }
+  .user-profile-pic:hover {
+    img {
+      filter: opacity(0.8) drop-shadow(0 0 0 black);
+      transition: 0.5s;
+    }
+  }
+  .link-btn {
+    .btns {
+      background: #fbfdff;
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+      margin-bottom: 15px;
+      border-radius: 4px;
+      height: 50px;
+      border: 2px solid #dde6ef;
+      cursor: pointer;
+      :first-child {
+        background-color: rgba(35, 192, 233, 0.2);
+        display: inline-flex;
+        width: 25px;
+        height: 25px;
+        justify-content: center;
+        border-radius: 4px;
+      }
+      .btns-icon {
+        padding: 5px;
+        color: #9da2a3 !important;
+      }
+      .btn-text {
+        font-size: 14px;
+        font-weight: 500;
+        color: #4e4e4e;
+        // padding: 10px 15px;
+        margin-left: 10px;
+        letter-spacing: 0.3px;
+        text-transform: capitalize;
+      }
+    }
+    .btns:hover,
+    .active {
+      background-color: #545657;
+      border-color: #b9b4b4;
+      transition: 0.5s;
+      .btns-icon {
+        color: #fff !important;
+      }
+      .btn-text {
+        color: #fff;
+      }
+      :first-child {
+        background-color: rgb(184, 190, 192);
+      }
+    }
+  }
+}

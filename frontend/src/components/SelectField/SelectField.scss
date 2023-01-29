@@ -1,0 +1,37 @@
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+.css-1s2u09g-control {
+  .css-319lph-ValueContainer {
+    padding: 0 20px;
+  }
+}
+
+.select-field {
+  .css-1s2u09g-control {
+    height: 46px;
+    border-radius: 30px;
+    border: 1px solid #ececec;
+    .css-1hb7zxy-IndicatorsContainer {
+      justify-content: flex-end;
+    }
+  }
+  .css-1s2u09g-control:focus {
+    outline: none;
+    border: 1px solid #23c0e9;
+    height: 46px;
+    border-radius: 30px;
+  }
+  .css-1pahdxg-control {
+    border: none;
+    align-items: unset;
+    background-color: unset;
+    border-radius: unset;
+    box-shadow: unset;
+    outline: none;
+    border: 1px solid #23c0e9;
+    height: 46px;
+    border-radius: 30px;
+  }
+}

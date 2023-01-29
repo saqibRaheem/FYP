@@ -1,0 +1,32 @@
+.form-slider-main {
+  background-image: url("../../assests/formbg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //   height: 200px;
+  padding: 120px 0 100px;
+  position: relative;
+  :first-child{
+    z-index: 15;
+  }
+  h3 {
+    text-align: center;
+    color: #c9ccce;
+    font-size: 28px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 45%;
+  }
+}
+
+.form-slider-main::before{
+  content: "";
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 15;
+}

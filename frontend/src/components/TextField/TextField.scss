@@ -1,0 +1,19 @@
+.input {
+  width: 100%;
+  height: 46px;
+  padding: 0 20px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: 1px solid #ececec;
+  transition: all 0.3s;
+  margin-top: 5px;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #7f8283;
+}
+label{
+  font-size: 14px;
+  color: #A69AA6;
+  font-weight: 400;
+}

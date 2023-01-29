@@ -1,0 +1,51 @@
+.header-main {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  z-index: 99;
+}
+
+.header-main .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 70px;
+}
+
+.header-main .header .header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-main .header .header-left h3 {
+  color: #23c0e9;
+  font-size: 28px;
+}
+
+.header-main .header .header-left .nav-text-color li {
+  color: #9a9a9a;
+}
+
+.header-main .header .header-left ul {
+  margin-left: 50px;
+}
+
+.header-main .header .header-left ul li {
+  display: inline;
+  margin-right: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  color: rgb(226, 223, 223);
+}
+
+.header-main .header .header-right :first-child {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=Header.css.map */
